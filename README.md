@@ -6,11 +6,11 @@
 
 | Demo | Description | Preview |
 |------|-------------|---------|
-| [`Animated-Skills-ProgressBar`](./Animated-Skills-ProgressBar/) | using Html5 , Css3 & media query (without progress tag ) | [🔗 Live](https://fadyehabamer.github.io/css-animations/Animated-Skills-ProgressBar/progress bar/) |
-| [`Background-ChangingColor-onHover`](./Background-ChangingColor-onHover/) | Background changing on hover | [🔗 Live](https://fadyehabamer.github.io/css-animations/Background-ChangingColor-onHover/Change-image-color-Hover-master/) |
+| [`Animated-Skills-ProgressBar`](./Animated-Skills-ProgressBar/) | using Html5 , Css3 & media query (without progress tag ) | [🔗 Live](https://fadyehabamer.github.io/css-animations/Animated-Skills-ProgressBar/) |
+| [`Background-ChangingColor-onHover`](./Background-ChangingColor-onHover/) | Background changing on hover | [🔗 Live](https://fadyehabamer.github.io/css-animations/Background-ChangingColor-onHover/) |
 | [`BlendingGradients`](./BlendingGradients/) | Blending gradients using Granim.js | [🔗 Live](https://fadyehabamer.github.io/css-animations/BlendingGradients/) |
 | [`BlinkingText-animation`](./BlinkingText-animation/) | Blinking Text Effect | [🔗 Live](https://fadyehabamer.github.io/css-animations/BlinkingText-animation/) |
-| [`BorderAnimation-HoverEffect`](./BorderAnimation-HoverEffect/) | Border animation when hovering | [🔗 Live](https://fadyehabamer.github.io/css-animations/BorderAnimation-HoverEffect/Content-Box-Hover-Effect-master/) |
+| [`BorderAnimation-HoverEffect`](./BorderAnimation-HoverEffect/) | Border animation when hovering | [🔗 Live](https://fadyehabamer.github.io/css-animations/BorderAnimation-HoverEffect/) |
 | [`CSS-GradientGeneratorCode`](./CSS-GradientGeneratorCode/) | JS gradient Generator | [🔗 Live](https://fadyehabamer.github.io/css-animations/CSS-GradientGeneratorCode/) |
 | [`Circular-FillEffect-Transition`](./Circular-FillEffect-Transition/) | circular body fill effect | [🔗 Live](https://fadyehabamer.github.io/css-animations/Circular-FillEffect-Transition/) |
 | [`Clip-ImageintoText`](./Clip-ImageintoText/) | Clip an image to text | [🔗 Live](https://fadyehabamer.github.io/css-animations/Clip-ImageintoText/) |
@@ -24,22 +24,22 @@
 | [`Hexagonal-Social-Icons`](./Hexagonal-Social-Icons/) | hexagonal Social Icons using clip path | [🔗 Live](https://fadyehabamer.github.io/css-animations/Hexagonal-Social-Icons/) |
 | [`HoverBoard-JS`](./HoverBoard-JS/) | Hoverboard effect completely with JS | [🔗 Live](https://fadyehabamer.github.io/css-animations/HoverBoard-JS/) |
 | [`Icons-shake-on-hover`](./Icons-shake-on-hover/) | Icons shake on hover | [🔗 Live](https://fadyehabamer.github.io/css-animations/Icons-shake-on-hover/) |
-| [`Image-MultiDirection-Overlay`](./Image-MultiDirection-Overlay/) | Animated overlay Using Css3 | [🔗 Live](https://fadyehabamer.github.io/css-animations/Image-MultiDirection-Overlay/OverLay/) |
+| [`Image-MultiDirection-Overlay`](./Image-MultiDirection-Overlay/) | Animated overlay Using Css3 | [🔗 Live](https://fadyehabamer.github.io/css-animations/Image-MultiDirection-Overlay/) |
 | [`Image-Reflection`](./Image-Reflection/) | Image Reflection using CSS3 | [🔗 Live](https://fadyehabamer.github.io/css-animations/Image-Reflection/) |
-| [`JavaScript-SlideShow`](./JavaScript-SlideShow/) | slideshow effect | [🔗 Live](https://fadyehabamer.github.io/css-animations/JavaScript-SlideShow/Slideshow using JS/) |
+| [`JavaScript-SlideShow`](./JavaScript-SlideShow/) | slideshow effect | [🔗 Live](https://fadyehabamer.github.io/css-animations/JavaScript-SlideShow/) |
 | [`ListItem-HoverEffect`](./ListItem-HoverEffect/) | List item hover effect | [🔗 Live](https://fadyehabamer.github.io/css-animations/ListItem-HoverEffect/) |
 | [`Physical-SocialMedia-Icons`](./Physical-SocialMedia-Icons/) | Physical Effect Social Media Icons | [🔗 Live](https://fadyehabamer.github.io/css-animations/Physical-SocialMedia-Icons/) |
 | [`PseudoElements-hoverAnimation`](./PseudoElements-hoverAnimation/) | Pseudo-elements Hover animation using css3 | [🔗 Live](https://fadyehabamer.github.io/css-animations/PseudoElements-hoverAnimation/) |
-| [`Pulsing-heart`](./Pulsing-heart/) | Css3 animation | [🔗 Live](https://fadyehabamer.github.io/css-animations/Pulsing-heart/Pulsing-Heart-Animation-Effect-master/) |
+| [`Pulsing-heart`](./Pulsing-heart/) | Css3 animation | [🔗 Live](https://fadyehabamer.github.io/css-animations/Pulsing-heart/) |
 | [`SVG-Text-Animation`](./SVG-Text-Animation/) | SVG Text Animation | [🔗 Live](https://fadyehabamer.github.io/css-animations/SVG-Text-Animation/) |
-| [`Skewed-background`](./Skewed-background/) | Using Css3 ( clip-path ) | [🔗 Live](https://fadyehabamer.github.io/css-animations/Skewed-background/Skewed-div using html5 Css3/) |
+| [`Skewed-background`](./Skewed-background/) | Using Css3 ( clip-path ) | [🔗 Live](https://fadyehabamer.github.io/css-animations/Skewed-background/) |
 | [`SleepingCat-Animation`](./SleepingCat-Animation/) | My cat (Metwally) sleeping animation using css3 | [🔗 Live](https://fadyehabamer.github.io/css-animations/SleepingCat-Animation/) |
-| [`Sticky-Notes`](./Sticky-Notes/) | fully responsive & animated | [🔗 Live](https://fadyehabamer.github.io/css-animations/Sticky-Notes/Stickynotes/) |
+| [`Sticky-Notes`](./Sticky-Notes/) | fully responsive & animated | [🔗 Live](https://fadyehabamer.github.io/css-animations/Sticky-Notes/) |
 | [`Text-Split`](./Text-Split/) | Text Split on hover | [🔗 Live](https://fadyehabamer.github.io/css-animations/Text-Split/) |
 | [`TextShadow-Effect`](./TextShadow-Effect/) | — | [🔗 Live](https://fadyehabamer.github.io/css-animations/TextShadow-Effect/) |
-| [`Typing-Effect`](./Typing-Effect/) | Using Css3 | [🔗 Live](https://fadyehabamer.github.io/css-animations/Typing-Effect/typing effect using Html & Css/) |
+| [`Typing-Effect`](./Typing-Effect/) | Using Css3 | [🔗 Live](https://fadyehabamer.github.io/css-animations/Typing-Effect/) |
 | [`WordBreak-onHover`](./WordBreak-onHover/) | Split Word on hover with CSS | [🔗 Live](https://fadyehabamer.github.io/css-animations/WordBreak-onHover/) |
-| [`XRay-Cat`](./XRay-Cat/) | XRay Cat animation | [🔗 Live](https://fadyehabamer.github.io/css-animations/XRay-Cat/X-Rayed-Cat-master/) |
+| [`XRay-Cat`](./XRay-Cat/) | XRay Cat animation | [🔗 Live](https://fadyehabamer.github.io/css-animations/XRay-Cat/) |
 | [`Zoom-Effect`](./Zoom-Effect/) | Image Zoom Effect OnHover | [🔗 Live](https://fadyehabamer.github.io/css-animations/Zoom-Effect/) |
 | [`animated-moving-car`](./animated-moving-car/) | Animated moving car | [🔗 Live](https://fadyehabamer.github.io/css-animations/animated-moving-car/) |
 | [`custom-cursor`](./custom-cursor/) | custom cursor using Css3 + svg encoder | [🔗 Live](https://fadyehabamer.github.io/css-animations/custom-cursor/) |

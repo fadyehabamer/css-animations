@@ -1,9 +1,11 @@
-# SVG Text Animation
-> How to make text animation (simillar to Anime.js) but, with **CSS** only!
-> [YouTube Link](https://www.youtube.com/watch?v=4nMoIKhY0JM&t=13s)
+# SVG-Text-Animation
 
-<P align="center">
-  <kbd>
-  <img src="img.gif">
-</kbd>
-</p>
+SVG Text Animation
+
+### 🔗 [View Live Demo](https://fadyehabamer.github.io/css-animations/SVG-Text-Animation/)
+
+**Built with:** CSS
+**Topics:** `svg`, `svg-animations`, `text`, `youtube`
+
+---
+↩ Part of the [**css-animations**](../) collection · [all collections](https://github.com/fadyehabamer?tab=repositories) · [@fadyehabamer](https://github.com/fadyehabamer)

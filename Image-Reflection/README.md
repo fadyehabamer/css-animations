@@ -1,26 +1,11 @@
-# Image Reflection
-> Code snippet : 
+# Image-Reflection
 
-```css
-.bg::before {
-  background-image: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 0.2),
-    #fff 60%,
-    #fff
-  );
-  
-  .bg::after {
-  content: "";
-  position: absolute;
-  background-image: inherit;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: inherit;
-  height: inherit;
-  top: 101%;
-  transform: rotateX(180deg);
-}
-  
-```
+Image Reflection using CSS3
+
+### 🔗 [View Live Demo](https://fadyehabamer.github.io/css-animations/Image-Reflection/)
+
+**Built with:** CSS
+**Topics:** `reflection`, `css`, `linear-gradient`
+
+---
+↩ Part of the [**css-animations**](../) collection · [all collections](https://github.com/fadyehabamer?tab=repositories) · [@fadyehabamer](https://github.com/fadyehabamer)

@@ -1,23 +1,11 @@
-<p align="center">
-  <img src="gif.gif">
-</p>
+# BlinkingText-animation
 
-```css
-@keyframes animate {
-  0% {
-    color: #484848;
-    text-shadow: none;
-  }
-  90% {
-    color: #484848;
-    text-shadow: none;
-  }
-  100% {
-    color: #fff900;
-    text-shadow: 0 0 7px #fff900, 0 0 50px #ff6c00;
-  }
-}
+Blinking Text Effect
 
-/* And make animation delay for each letter */
+### 🔗 [View Live Demo](https://fadyehabamer.github.io/css-animations/BlinkingText-animation/)
 
-```
+**Built with:** CSS
+**Topics:** `loading-animations`, `css`
+
+---
+↩ Part of the [**css-animations**](../) collection · [all collections](https://github.com/fadyehabamer?tab=repositories) · [@fadyehabamer](https://github.com/fadyehabamer)

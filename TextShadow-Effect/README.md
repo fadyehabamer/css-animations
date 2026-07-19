@@ -1,9 +1,11 @@
-# Text shadow effect
-```css
-text-shadow:
-  2px 1px 0 #183675, /*first shadow*/
-  3px 2px 0 #bf189b,  /*second shadow*/
-  4px 3px #ffeb00,  /*third shadow*/
-  5px 4px black  /*fourth shadow*/
+# TextShadow-Effect
 
-```
+_A demo from my frontend collection._
+
+### 🔗 [View Live Demo](https://fadyehabamer.github.io/css-animations/TextShadow-Effect/)
+
+**Built with:** CSS
+**Topics:** `css3`, `text-shadow`
+
+---
+↩ Part of the [**css-animations**](../) collection · [all collections](https://github.com/fadyehabamer?tab=repositories) · [@fadyehabamer](https://github.com/fadyehabamer)

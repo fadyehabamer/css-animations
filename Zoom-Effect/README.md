@@ -1,15 +1,11 @@
-# Image Zoom Effect
+# Zoom-Effect
 
-```css
-*{
-  transition : all 0.5s ease-in-out
-}
+Image Zoom Effect OnHover
 
-.container{
-  overeflow : hidden;
-}
+### 🔗 [View Live Demo](https://fadyehabamer.github.io/css-animations/Zoom-Effect/)
 
-img{
-  transform : scale(1.3);
-}
-```
+**Built with:** HTML
+**Topics:** `zoom`, `css`, `transform`, `scale`
+
+---
+↩ Part of the [**css-animations**](../) collection · [all collections](https://github.com/fadyehabamer?tab=repositories) · [@fadyehabamer](https://github.com/fadyehabamer)

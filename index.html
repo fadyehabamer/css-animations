@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>css-animations — Fady Ehab Amer</title>
+<style>
+  :root{--bg:#0d1117;--card:#161b22;--border:#30363d;--ink:#e6edf3;--muted:#8b949e;--accent:#58a6ff}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+    background:var(--bg);color:var(--ink);line-height:1.5}
+  .wrap{max-width:1000px;margin:0 auto;padding:48px 24px}
+  header{border-bottom:1px solid var(--border);padding-bottom:20px;margin-bottom:28px}
+  h1{margin:0 0 6px;font-size:28px;font-family:ui-monospace,"SF Mono",Menlo,monospace;color:var(--accent)}
+  p.sub{margin:0;color:var(--muted);font-size:15px}
+  .count{display:inline-block;margin-top:10px;font-family:ui-monospace,monospace;font-size:12px;
+    color:var(--muted);border:1px solid var(--border);border-radius:20px;padding:3px 12px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+  .card{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);
+    background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px 16px;
+    font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:13.5px;transition:border-color .15s,transform .15s}
+  .card:hover{border-color:var(--accent);transform:translateY(-2px)}
+  .dot{width:8px;height:8px;border-radius:50%;background:var(--accent);flex:none}
+  footer{margin-top:36px;padding-top:20px;border-top:1px solid var(--border);
+    color:var(--muted);font-size:13px}
+  a.home{color:var(--accent);text-decoration:none}
+</style></head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>css-animations</h1>
+      <p class="sub">css-animations — live demos</p>
+      <div class="count">37 live demos</div>
+    </header>
+    <div class="grid">
+    <a class="card" href="./Animated-Skills-ProgressBar/"><span class="dot"></span>Animated-Skills-ProgressBar</a>
+    <a class="card" href="./Background-ChangingColor-onHover/"><span class="dot"></span>Background-ChangingColor-onHover</a>
+    <a class="card" href="./BlendingGradients/"><span class="dot"></span>BlendingGradients</a>
+    <a class="card" href="./BlinkingText-animation/"><span class="dot"></span>BlinkingText-animation</a>
+    <a class="card" href="./BorderAnimation-HoverEffect/"><span class="dot"></span>BorderAnimation-HoverEffect</a>
+    <a class="card" href="./CSS-GradientGeneratorCode/"><span class="dot"></span>CSS-GradientGeneratorCode</a>
+    <a class="card" href="./Circular-FillEffect-Transition/"><span class="dot"></span>Circular-FillEffect-Transition</a>
+    <a class="card" href="./Clip-ImageintoText/"><span class="dot"></span>Clip-ImageintoText</a>
+    <a class="card" href="./CopyToClipBoard/"><span class="dot"></span>CopyToClipBoard</a>
+    <a class="card" href="./Dark-Animated-Icons/"><span class="dot"></span>Dark-Animated-Icons</a>
+    <a class="card" href="./Eid-Adha-Mubarak-Animation/"><span class="dot"></span>Eid-Adha-Mubarak-Animation</a>
+    <a class="card" href="./GIF-IconEffect/"><span class="dot"></span>GIF-IconEffect</a>
+    <a class="card" href="./GSAP-RelaxingAnimation/"><span class="dot"></span>GSAP-RelaxingAnimation</a>
+    <a class="card" href="./GradientText-CSS3/"><span class="dot"></span>GradientText-CSS3</a>
+    <a class="card" href="./Happy-Mothers-Day-animation/"><span class="dot"></span>Happy-Mothers-Day-animation</a>
+    <a class="card" href="./Hexagonal-Social-Icons/"><span class="dot"></span>Hexagonal-Social-Icons</a>
+    <a class="card" href="./HoverBoard-JS/"><span class="dot"></span>HoverBoard-JS</a>
+    <a class="card" href="./Icons-shake-on-hover/"><span class="dot"></span>Icons-shake-on-hover</a>
+    <a class="card" href="./Image-MultiDirection-Overlay/"><span class="dot"></span>Image-MultiDirection-Overlay</a>
+    <a class="card" href="./Image-Reflection/"><span class="dot"></span>Image-Reflection</a>
+    <a class="card" href="./JavaScript-SlideShow/"><span class="dot"></span>JavaScript-SlideShow</a>
+    <a class="card" href="./ListItem-HoverEffect/"><span class="dot"></span>ListItem-HoverEffect</a>
+    <a class="card" href="./Physical-SocialMedia-Icons/"><span class="dot"></span>Physical-SocialMedia-Icons</a>
+    <a class="card" href="./PseudoElements-hoverAnimation/"><span class="dot"></span>PseudoElements-hoverAnimation</a>
+    <a class="card" href="./Pulsing-heart/"><span class="dot"></span>Pulsing-heart</a>
+    <a class="card" href="./SVG-Text-Animation/"><span class="dot"></span>SVG-Text-Animation</a>
+    <a class="card" href="./Skewed-background/"><span class="dot"></span>Skewed-background</a>
+    <a class="card" href="./SleepingCat-Animation/"><span class="dot"></span>SleepingCat-Animation</a>
+    <a class="card" href="./Sticky-Notes/"><span class="dot"></span>Sticky-Notes</a>
+    <a class="card" href="./Text-Split/"><span class="dot"></span>Text-Split</a>
+    <a class="card" href="./TextShadow-Effect/"><span class="dot"></span>TextShadow-Effect</a>
+    <a class="card" href="./Typing-Effect/"><span class="dot"></span>Typing-Effect</a>
+    <a class="card" href="./WordBreak-onHover/"><span class="dot"></span>WordBreak-onHover</a>
+    <a class="card" href="./XRay-Cat/"><span class="dot"></span>XRay-Cat</a>
+    <a class="card" href="./Zoom-Effect/"><span class="dot"></span>Zoom-Effect</a>
+    <a class="card" href="./animated-moving-car/"><span class="dot"></span>animated-moving-car</a>
+    <a class="card" href="./custom-cursor/"><span class="dot"></span>custom-cursor</a>
+    </div>
+    <footer>
+      Part of <a class="home" href="https://github.com/fadyehabamer">@fadyehabamer</a>'s curated collections ·
+      <a class="home" href="https://github.com/fadyehabamer/css-animations">source</a>
+    </footer>
+  </div>
+</body></html>

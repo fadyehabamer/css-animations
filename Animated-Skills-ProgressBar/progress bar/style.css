@@ -1,0 +1,55 @@
+.container{ 
+    width: 80%;
+    margin: 100px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.skillbox{
+    background-color: rgb(179, 179, 179);
+    padding: 8px;
+    display: flex;
+    margin-top: 20px;
+}
+.skillname{
+    padding: 0 10px;
+    width: 100px;
+    text-align: center;
+}
+.skillprogress{
+    height: 30px;
+    width: calc(90% - 110px);
+    background-color: white;
+    text-align: center;
+    position: relative;
+    transform: translate(-55%, 40%);
+    top: 50%;
+    left: 50%;   
+}
+.skillprogress span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100%;
+  background-color: rebeccapurple;
+}
+
+@media(min-width:435px){
+    .skillbox{
+        padding:5px
+    }
+    .skillname{
+        padding: 0 7px;
+        width: 50px;
+        text-align: center;
+    }
+    .skillprogress{
+        height: 30px;
+        width: calc(80% - 50px);
+        background-color: white;
+        text-align: center;
+        position: relative;
+        transform: translate(-55%, 40%);
+        top: 50%;
+        left: 50%;   
+    }
+}

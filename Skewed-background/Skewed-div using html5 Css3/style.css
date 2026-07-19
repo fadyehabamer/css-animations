@@ -1,0 +1,11 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: #3498db;
+    /* default clip-path: polygon (0 0 , 100 0 , 100 100 , 0 100); dont forget % symbol */
+    clip-path: polygon(0 0 , 100% 0 , 100% 70% , 0 100%);
+}

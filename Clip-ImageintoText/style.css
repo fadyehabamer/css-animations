@@ -1,0 +1,14 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas';
+}
+h1 {
+    font-size: 10rem;
+    background: url('./bg.jpg');
+    background-position:bottom;
+    -webkit-background-clip: text ;
+    color: transparent;
+}

@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(165, 168, 164);
+}
+article {
+  position: relative;
+  padding: 15px;
+  max-width: 740px;
+  max-height: 450px;
+  background-color: rgb(87, 13, 13);
+  margin: 50px auto;
+  color: white;
+  box-shadow: none;
+
+  transition: all 0.5s ease-in-out;
+}
+article::after,
+article::before {
+  transition: all 0.5s ease-in-out;
+}
+article:before {
+  background-color: rgb(87, 13, 13);
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: all 0.5s ease-in-out;
+  transform: rotate(-4deg);
+}
+article::after {
+  background-color: rgb(87, 13, 13);
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: all 0.5s ease-in-out;
+  transform: rotate(4deg);
+}
+
+article:focus {
+  transition: all 0.5s ease-in-out;
+  outline: none;
+}
+
+article:focus::after,
+article:focus::before {
+  transform: rotate(0deg);
+  transition: all 0.5s ease-in-out;
+}
+
+@media (max-width:650px){
+  article{
+    overflow: hidden;
+  }
+}
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 45px;
+}
+p {
+  padding: 10px;
+  line-height: 1.4;
+  font-family: cursive;
+}

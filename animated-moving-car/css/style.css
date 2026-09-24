@@ -112,3 +112,13 @@ html, body{
     padding: 10px 15px;
     font-weight: bold;
 }
+
+/* Park the car (no scrolling road/city, bouncing body or spinning wheels) for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce){
+    .road,
+    .city,
+    .car .car-runing,
+    .wheel{
+        animation: none;
+    }
+}

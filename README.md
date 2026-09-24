@@ -36,7 +36,7 @@
 | [`SleepingCat-Animation`](./SleepingCat-Animation/) | My cat (Metwally) sleeping animation using css3 | [🔗 Live](https://fadyehabamer.github.io/css-animations/SleepingCat-Animation/) |
 | [`Sticky-Notes`](./Sticky-Notes/) | fully responsive & animated | [🔗 Live](https://fadyehabamer.github.io/css-animations/Sticky-Notes/) |
 | [`Text-Split`](./Text-Split/) | Text Split on hover | [🔗 Live](https://fadyehabamer.github.io/css-animations/Text-Split/) |
-| [`TextShadow-Effect`](./TextShadow-Effect/) | — | [🔗 Live](https://fadyehabamer.github.io/css-animations/TextShadow-Effect/) |
+| [`TextShadow-Effect`](./TextShadow-Effect/) | Layered multi-colour 3D text-shadow effect | [🔗 Live](https://fadyehabamer.github.io/css-animations/TextShadow-Effect/) |
 | [`Typing-Effect`](./Typing-Effect/) | Using Css3 | [🔗 Live](https://fadyehabamer.github.io/css-animations/Typing-Effect/) |
 | [`WordBreak-onHover`](./WordBreak-onHover/) | Split Word on hover with CSS | [🔗 Live](https://fadyehabamer.github.io/css-animations/WordBreak-onHover/) |
 | [`XRay-Cat`](./XRay-Cat/) | XRay Cat animation | [🔗 Live](https://fadyehabamer.github.io/css-animations/XRay-Cat/) |

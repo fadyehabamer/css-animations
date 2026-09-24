@@ -135,6 +135,21 @@ body {
   color: var(--light);
 }
 
+.back {
+  margin-top: auto;
+  margin-bottom: 24px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: #f4ead5;
+  font-size: 0.875rem;
+  text-underline-offset: 3px;
+}
+
+.back:focus-visible {
+  outline: 3px solid var(--light);
+  outline-offset: 2px;
+}
+
 @media (max-width: 480px) {
   :root {
     --u: 0.8px;
@@ -190,5 +205,17 @@ body {
   }
   to {
     transform: translateX(-50%) scale(0.9, 1.12) skewX(4deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lantern,
+  .window,
+  .flame {
+    animation: none;
+  }
+
+  .lantern::before {
+    animation: glow 6s ease-in-out infinite;
   }
 }

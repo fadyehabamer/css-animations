@@ -2,7 +2,7 @@
 
 > Pure-CSS & JS animations, transitions and hover effects
 
-**38 demos** · 🔗 **[Live gallery](https://fadyehabamer.github.io/css-animations/)** — every demo is deployed to GitHub Pages.
+**39 demos** · 🔗 **[Live gallery](https://fadyehabamer.github.io/css-animations/)** — every demo is deployed to GitHub Pages.
 
 | Demo | Description | Preview |
 |------|-------------|---------|
@@ -33,6 +33,7 @@
 | [`PseudoElements-hoverAnimation`](./PseudoElements-hoverAnimation/) | Pseudo-elements Hover animation using css3 | [🔗 Live](https://fadyehabamer.github.io/css-animations/PseudoElements-hoverAnimation/) |
 | [`Pulsing-heart`](./Pulsing-heart/) | Css3 animation | [🔗 Live](https://fadyehabamer.github.io/css-animations/Pulsing-heart/) |
 | [`SVG-Text-Animation`](./SVG-Text-Animation/) | SVG Text Animation | [🔗 Live](https://fadyehabamer.github.io/css-animations/SVG-Text-Animation/) |
+| [`Scroll-Reveal-Timeline`](./Scroll-Reveal-Timeline/) | Timeline entries revealed on scroll with IntersectionObserver, visible by default without JS | [🔗 Live](https://fadyehabamer.github.io/css-animations/Scroll-Reveal-Timeline/) |
 | [`Skewed-background`](./Skewed-background/) | Using Css3 ( clip-path ) | [🔗 Live](https://fadyehabamer.github.io/css-animations/Skewed-background/) |
 | [`SleepingCat-Animation`](./SleepingCat-Animation/) | My cat (Metwally) sleeping animation using css3 | [🔗 Live](https://fadyehabamer.github.io/css-animations/SleepingCat-Animation/) |
 | [`Sticky-Notes`](./Sticky-Notes/) | fully responsive & animated | [🔗 Live](https://fadyehabamer.github.io/css-animations/Sticky-Notes/) |

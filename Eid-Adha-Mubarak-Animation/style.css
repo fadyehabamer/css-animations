@@ -41,7 +41,7 @@ h1{
 .imeduim{
     background: url(images/particules_medium.png) repeat 0 0;
     animation: drop 12s linear infinite;
-}.ilarge{
+}.ismall{
     background: url(images/particules_small.png) repeat 0 0;
     animation: drop 27s linear infinite;
 }
@@ -53,5 +53,12 @@ h1{
 
     to{
         background-position: 0 413px;
+    }
+}
+
+/* Stop the endlessly falling particles for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    .ilarge, .imeduim, .ismall{
+        animation: none;
     }
 }

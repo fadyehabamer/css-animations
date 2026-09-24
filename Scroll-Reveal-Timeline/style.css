@@ -184,4 +184,21 @@ body {
 .outro a {
   color: var(--accent);
   font-weight: 600;
+  padding: 4px 6px;
+  border-radius: 4px;
+  text-underline-offset: 3px;
+}
+
+.outro a:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal-ready .item,
+  .reveal-ready .item:nth-child(even) {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
 }

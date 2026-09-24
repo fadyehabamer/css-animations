@@ -1,6 +1,9 @@
 const items = document.querySelectorAll(".timeline .item");
+const reduceMotion =
+  typeof window.matchMedia === "function" &&
+  window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-if ("IntersectionObserver" in window && items.length) {
+if ("IntersectionObserver" in window && items.length && !reduceMotion) {
   document.documentElement.classList.add("reveal-ready");
 
   const observer = new IntersectionObserver(

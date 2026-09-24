@@ -26,3 +26,10 @@ svg text{
         stroke-dashoffset: 10%;
     }
 }
+
+/* Show the full outline without the looping stroke animation for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    svg text{
+        animation: none;
+    }
+}

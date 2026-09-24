@@ -2,7 +2,7 @@
 
 > Pure-CSS & JS animations, transitions and hover effects
 
-**37 demos** · 🔗 **[Live gallery](https://fadyehabamer.github.io/css-animations/)** — every demo is deployed to GitHub Pages.
+**39 demos** · 🔗 **[Live gallery](https://fadyehabamer.github.io/css-animations/)** — every demo is deployed to GitHub Pages.
 
 | Demo | Description | Preview |
 |------|-------------|---------|
@@ -27,11 +27,13 @@
 | [`Image-MultiDirection-Overlay`](./Image-MultiDirection-Overlay/) | Animated overlay Using Css3 | [🔗 Live](https://fadyehabamer.github.io/css-animations/Image-MultiDirection-Overlay/) |
 | [`Image-Reflection`](./Image-Reflection/) | Image Reflection using CSS3 | [🔗 Live](https://fadyehabamer.github.io/css-animations/Image-Reflection/) |
 | [`JavaScript-SlideShow`](./JavaScript-SlideShow/) | slideshow effect | [🔗 Live](https://fadyehabamer.github.io/css-animations/JavaScript-SlideShow/) |
+| [`Lantern-Swing`](./Lantern-Swing/) | Ramadan fanous built from CSS shapes, swinging with a flickering glow | [🔗 Live](https://fadyehabamer.github.io/css-animations/Lantern-Swing/) |
 | [`ListItem-HoverEffect`](./ListItem-HoverEffect/) | List item hover effect | [🔗 Live](https://fadyehabamer.github.io/css-animations/ListItem-HoverEffect/) |
 | [`Physical-SocialMedia-Icons`](./Physical-SocialMedia-Icons/) | Physical Effect Social Media Icons | [🔗 Live](https://fadyehabamer.github.io/css-animations/Physical-SocialMedia-Icons/) |
 | [`PseudoElements-hoverAnimation`](./PseudoElements-hoverAnimation/) | Pseudo-elements Hover animation using css3 | [🔗 Live](https://fadyehabamer.github.io/css-animations/PseudoElements-hoverAnimation/) |
 | [`Pulsing-heart`](./Pulsing-heart/) | Css3 animation | [🔗 Live](https://fadyehabamer.github.io/css-animations/Pulsing-heart/) |
 | [`SVG-Text-Animation`](./SVG-Text-Animation/) | SVG Text Animation | [🔗 Live](https://fadyehabamer.github.io/css-animations/SVG-Text-Animation/) |
+| [`Scroll-Reveal-Timeline`](./Scroll-Reveal-Timeline/) | Timeline entries revealed on scroll with IntersectionObserver, visible by default without JS | [🔗 Live](https://fadyehabamer.github.io/css-animations/Scroll-Reveal-Timeline/) |
 | [`Skewed-background`](./Skewed-background/) | Using Css3 ( clip-path ) | [🔗 Live](https://fadyehabamer.github.io/css-animations/Skewed-background/) |
 | [`SleepingCat-Animation`](./SleepingCat-Animation/) | My cat (Metwally) sleeping animation using css3 | [🔗 Live](https://fadyehabamer.github.io/css-animations/SleepingCat-Animation/) |
 | [`Sticky-Notes`](./Sticky-Notes/) | fully responsive & animated | [🔗 Live](https://fadyehabamer.github.io/css-animations/Sticky-Notes/) |

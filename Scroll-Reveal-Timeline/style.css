@@ -50,30 +50,30 @@ body {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 50%;
+  inset-inline-start: calc(50% - 1px);
   width: 2px;
   background: var(--line);
-  transform: translateX(-50%);
 }
 
 .item {
   position: relative;
   width: 50%;
-  padding: 0 40px 48px 0;
-  text-align: right;
+  padding-block: 0 48px;
+  padding-inline: 0 40px;
+  text-align: end;
 }
 
 .item:nth-child(even) {
-  margin-left: 50%;
-  padding: 0 0 48px 40px;
-  text-align: left;
+  margin-inline-start: 50%;
+  padding-inline: 40px 0;
+  text-align: start;
 }
 
 .item::before {
   content: "";
   position: absolute;
   top: 8px;
-  right: -8px;
+  inset-inline-end: -8px;
   width: 16px;
   height: 16px;
   border-radius: 50%;
@@ -82,8 +82,8 @@ body {
 }
 
 .item:nth-child(even)::before {
-  right: auto;
-  left: -8px;
+  inset-inline-end: auto;
+  inset-inline-start: -8px;
 }
 
 .item time {
@@ -108,17 +108,72 @@ body {
 
 .reveal-ready .item {
   opacity: 0;
-  transform: translateX(-32px);
+  --shift: -32px;
+  transform: translateX(var(--shift));
   transition: opacity 0.6s ease, transform 0.6s cubic-bezier(0.2, 0.7, 0.2, 1);
 }
 
 .reveal-ready .item:nth-child(even) {
-  transform: translateX(32px);
+  --shift: 32px;
+}
+
+[dir="rtl"] .reveal-ready .item,
+.reveal-ready[dir="rtl"] .item {
+  --shift: 32px;
+}
+
+[dir="rtl"] .reveal-ready .item:nth-child(even),
+.reveal-ready[dir="rtl"] .item:nth-child(even) {
+  --shift: -32px;
 }
 
 .reveal-ready .item.is-visible {
   opacity: 1;
   transform: none;
+}
+
+@media (max-width: 720px) {
+  .intro {
+    padding-top: 64px;
+  }
+
+  .intro h1 {
+    font-size: 2rem;
+  }
+
+  .timeline {
+    padding-inline: 20px 16px;
+  }
+
+  .timeline::before {
+    inset-inline-start: 27px;
+  }
+
+  .item,
+  .item:nth-child(even) {
+    width: auto;
+    margin-inline-start: 0;
+    padding-inline: 36px 0;
+    text-align: start;
+  }
+
+  .item::before,
+  .item:nth-child(even)::before {
+    inset-inline-end: auto;
+    inset-inline-start: 0;
+  }
+
+  .reveal-ready .item,
+  .reveal-ready .item:nth-child(even) {
+    --shift: 24px;
+  }
+
+  [dir="rtl"] .reveal-ready .item,
+  .reveal-ready[dir="rtl"] .item,
+  [dir="rtl"] .reveal-ready .item:nth-child(even),
+  .reveal-ready[dir="rtl"] .item:nth-child(even) {
+    --shift: -24px;
+  }
 }
 
 .outro {

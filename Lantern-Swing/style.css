@@ -129,10 +129,22 @@ body {
 
 .greeting {
   margin-top: calc(80 * var(--u));
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 6vw, 2.5rem);
   font-weight: 600;
   letter-spacing: 0.02em;
   color: var(--light);
+}
+
+@media (max-width: 480px) {
+  :root {
+    --u: 0.8px;
+  }
+}
+
+@media (min-width: 1000px) and (min-height: 760px) {
+  :root {
+    --u: 1.25px;
+  }
 }
 
 @keyframes swing {

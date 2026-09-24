@@ -43,3 +43,10 @@
     transform: translateY(0);
   }
 }
+
+/* No continuous shaking for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .container img:hover {
+    animation: none;
+  }
+}

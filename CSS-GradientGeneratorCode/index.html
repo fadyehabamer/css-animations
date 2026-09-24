@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gradient Generator</title>
     <!--Font Awesome-->
     <link
@@ -22,34 +24,36 @@
         <input type="color" id="color-b" value="#2b32b2" />
       </div>
       <div class="buttons">
-        <button onclick="setDirection('to top',this)">
+        <button onclick="setDirection('to top',this)" aria-label="Gradient to top">
           <i class="fas fa-arrow-up"></i>
         </button>
-        <button class="active" onclick="setDirection('to bottom',this)">
+        <button class="active" onclick="setDirection('to bottom',this)" aria-label="Gradient to bottom">
           <i class="fas fa-arrow-down"></i>
         </button>
-        <button onclick="setDirection('to right',this)">
+        <button onclick="setDirection('to right',this)" aria-label="Gradient to right">
           <i class="fas fa-arrow-right"></i>
         </button>
-        <button onclick="setDirection('to left',this)">
+        <button onclick="setDirection('to left',this)" aria-label="Gradient to left">
           <i class="fas fa-arrow-left"></i>
         </button>
-        <button class="rotate-icon" onclick="setDirection('to top right',this)">
+        <button class="rotate-icon" onclick="setDirection('to top right',this)" aria-label="Gradient to top right">
           <i class="fas fa-arrow-up"></i>
         </button>
         <button
           class="rotate-icon"
           onclick="setDirection('to bottom left',this)"
+          aria-label="Gradient to bottom left"
         >
           <i class="fas fa-arrow-down"></i>
         </button>
         <button
           class="rotate-icon"
           onclick="setDirection('to bottom right',this)"
+          aria-label="Gradient to bottom right"
         >
           <i class="fas fa-arrow-right"></i>
         </button>
-        <button class="rotate-icon" onclick="setDirection('to top left',this)">
+        <button class="rotate-icon" onclick="setDirection('to top left',this)" aria-label="Gradient to top left">
           <i class="fas fa-arrow-left"></i>
         </button>
       </div>
@@ -61,7 +65,7 @@
     </div>
 
     <!--Sweet Alert-->
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.26.25/dist/sweetalert2.all.min.js"></script>
 
     <!--Script-->
     <script src="script.js"></script>

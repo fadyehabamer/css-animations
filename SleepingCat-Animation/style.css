@@ -158,3 +158,13 @@ body {
         transform: scaleX(0.7);
     }
 }
+
+/* Keep the cat still for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    .mouth,
+    .body,
+    .bubble,
+    .shadow {
+        animation: none;
+    }
+}

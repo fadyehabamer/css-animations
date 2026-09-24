@@ -10,7 +10,8 @@ body {
 
 .bg {
   position: relative;
-  background-image: url(https://source.unsplash.com/user/erondu/1600x900);
+  /* source.unsplash.com has been retired; pinned Lorem Picsum photo (Unsplash, Andrew Ridley) */
+  background-image: url(https://picsum.photos/id/1018/1600/900);
   width: 80vw;
   height: 60vh;
   background-size: cover;

@@ -86,3 +86,11 @@ body
         width: 100%;
     }
 }
+
+/* Keyboard focus indicator (outline is removed above) */
+.text-boxes .text-box textarea:focus-visible,
+.text-boxes .text-box button:focus-visible
+{
+    outline: 2px solid #f2ab26;
+    outline-offset: 2px;
+}

@@ -94,3 +94,11 @@ input[type="color"]::-webkit-color-swatch{
     padding: 5px;
     cursor: pointer;
 }
+
+/* Keyboard focus indicator (the reset above removes the default outline) */
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible{
+    outline: 2px solid #4a6ee0;
+    outline-offset: 2px;
+}

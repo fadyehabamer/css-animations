@@ -34,6 +34,8 @@ body {
   flex-direction: column;
   align-items: center;
   filter: drop-shadow(0 0 calc(18 * var(--u)) rgba(255, 196, 92, 0.35));
+  transform-origin: 50% 0;
+  animation: swing 3.6s ease-in-out infinite alternate;
 }
 
 .lantern::before {
@@ -48,6 +50,7 @@ body {
   background: radial-gradient(circle, rgba(255, 206, 110, 0.35), rgba(255, 206, 110, 0) 65%);
   pointer-events: none;
   z-index: -1;
+  animation: glow 2.2s ease-in-out infinite;
 }
 
 .chain {
@@ -86,6 +89,15 @@ body {
 .window {
   border-radius: 50% 50% calc(4 * var(--u)) calc(4 * var(--u)) / 28% 28% calc(4 * var(--u)) calc(4 * var(--u));
   background: radial-gradient(circle at 50% 60%, #fff4d6, var(--light) 40%, #e07b2a 100%);
+  animation: flicker 1.8s steps(1, end) infinite;
+}
+
+.window:nth-child(2) {
+  animation-delay: -0.6s;
+}
+
+.window:nth-child(3) {
+  animation-delay: -1.1s;
 }
 
 .flame {
@@ -97,6 +109,8 @@ body {
   transform: translateX(-50%);
   border-radius: 50% 50% 50% 50% / 65% 65% 35% 35%;
   background: radial-gradient(circle at 50% 70%, #fff, #ffe08a 45%, #ff9a3c);
+  transform-origin: 50% 100%;
+  animation: flame 0.9s ease-in-out infinite alternate;
 }
 
 .base {
@@ -119,4 +133,50 @@ body {
   font-weight: 600;
   letter-spacing: 0.02em;
   color: var(--light);
+}
+
+@keyframes swing {
+  from {
+    transform: rotate(10deg);
+  }
+  to {
+    transform: rotate(-10deg);
+  }
+}
+
+@keyframes glow {
+  0%,
+  100% {
+    opacity: 0.75;
+    transform: translateX(-50%) scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(-50%) scale(1.08);
+  }
+}
+
+@keyframes flicker {
+  0%,
+  100% {
+    filter: brightness(1);
+  }
+  30% {
+    filter: brightness(1.15);
+  }
+  55% {
+    filter: brightness(0.9);
+  }
+  80% {
+    filter: brightness(1.08);
+  }
+}
+
+@keyframes flame {
+  from {
+    transform: translateX(-50%) scale(1, 1) skewX(-4deg);
+  }
+  to {
+    transform: translateX(-50%) scale(0.9, 1.12) skewX(4deg);
+  }
 }

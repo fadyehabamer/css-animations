@@ -197,3 +197,22 @@ h2 {
         font-size: 1.77rem;
     }
 }
+
+// Reduced motion: no pulsing or sliding, and the flower stems appear at full height straight away
+@media (prefers-reduced-motion: reduce) {
+    .pulse {
+        animation: none;
+    }
+
+    .slidein {
+        animation: none;
+        transform: none;
+    }
+
+    .grow-12,
+    .grow-15,
+    .grow-9 {
+        animation-duration: 1ms;
+        animation-delay: 0s;
+    }
+}

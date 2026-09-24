@@ -4,6 +4,119 @@
   box-sizing: border-box;
 }
 
+:root {
+  --night: #0b1026;
+  --dusk: #1f1a4a;
+  --gold: #e3b04b;
+  --gold-dark: #9c6b1c;
+  --light: #ffd88a;
+  --u: 1px;
+}
+
 body {
   font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: linear-gradient(180deg, var(--night), var(--dusk));
+  color: #f4ead5;
+  min-height: 100vh;
+}
+
+.scene {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.lantern {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  filter: drop-shadow(0 0 calc(18 * var(--u)) rgba(255, 196, 92, 0.35));
+}
+
+.lantern::before {
+  content: "";
+  position: absolute;
+  top: calc(80 * var(--u));
+  left: 50%;
+  width: calc(320 * var(--u));
+  height: calc(320 * var(--u));
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 206, 110, 0.35), rgba(255, 206, 110, 0) 65%);
+  pointer-events: none;
+  z-index: -1;
+}
+
+.chain {
+  width: calc(3 * var(--u));
+  height: calc(90 * var(--u));
+  background: repeating-linear-gradient(180deg, var(--gold-dark) 0 calc(6 * var(--u)), transparent calc(6 * var(--u)) calc(9 * var(--u)));
+}
+
+.ring {
+  width: calc(22 * var(--u));
+  height: calc(22 * var(--u));
+  border: calc(3 * var(--u)) solid var(--gold);
+  border-radius: 50%;
+  margin-bottom: calc(-2 * var(--u));
+}
+
+.cap {
+  width: calc(96 * var(--u));
+  height: calc(54 * var(--u));
+  background: linear-gradient(90deg, var(--gold-dark), var(--gold) 45%, var(--gold-dark));
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+
+.body {
+  position: relative;
+  width: calc(116 * var(--u));
+  height: calc(146 * var(--u));
+  padding: calc(12 * var(--u)) calc(10 * var(--u));
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: calc(6 * var(--u));
+  background: linear-gradient(90deg, var(--gold-dark), var(--gold) 50%, var(--gold-dark));
+  clip-path: polygon(12% 0, 88% 0, 100% 12%, 100% 88%, 88% 100%, 12% 100%, 0 88%, 0 12%);
+}
+
+.window {
+  border-radius: 50% 50% calc(4 * var(--u)) calc(4 * var(--u)) / 28% 28% calc(4 * var(--u)) calc(4 * var(--u));
+  background: radial-gradient(circle at 50% 60%, #fff4d6, var(--light) 40%, #e07b2a 100%);
+}
+
+.flame {
+  position: absolute;
+  left: 50%;
+  bottom: calc(22 * var(--u));
+  width: calc(16 * var(--u));
+  height: calc(28 * var(--u));
+  transform: translateX(-50%);
+  border-radius: 50% 50% 50% 50% / 65% 65% 35% 35%;
+  background: radial-gradient(circle at 50% 70%, #fff, #ffe08a 45%, #ff9a3c);
+}
+
+.base {
+  width: calc(96 * var(--u));
+  height: calc(24 * var(--u));
+  background: linear-gradient(90deg, var(--gold-dark), var(--gold) 45%, var(--gold-dark));
+  clip-path: polygon(0 0, 100% 0, 78% 100%, 22% 100%);
+}
+
+.tip {
+  width: calc(16 * var(--u));
+  height: calc(22 * var(--u));
+  background: var(--gold);
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+}
+
+.greeting {
+  margin-top: calc(80 * var(--u));
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--light);
 }

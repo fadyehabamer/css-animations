@@ -16,3 +16,11 @@ div.addEventListener("click", () => {
 
 
 })
+
+// Keyboard support: Enter / Space toggle the fill like a click
+div.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault()
+        div.click()
+    }
+})

@@ -25,3 +25,10 @@ div {
     transition: width 0.3s, height 0.3s , border-radius 0.3s;
     cursor: pointer;
 }
+
+/* Skip the full-screen grow/shrink for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    div {
+        transition: none;
+    }
+}

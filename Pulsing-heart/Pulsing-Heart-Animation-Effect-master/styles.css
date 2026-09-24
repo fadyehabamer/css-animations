@@ -96,3 +96,11 @@ body{
     transform: scale(1);
   }
 }
+
+/* No continuous pulsing for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce){
+  .heart,
+  .container:before{
+    animation: none;
+  }
+}
